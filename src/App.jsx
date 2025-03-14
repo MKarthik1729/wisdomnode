@@ -3,6 +3,10 @@ import styles from './App.module.scss'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Display from './Components/Home/Display'
 import HelloWorld from './Components/TODO/HelloWorld'
+import MathsProblems from './Components/JEE/Maths/Problems'
+import MathsTheory from './Components/JEE/Maths/Theory'
+import PhysicsProblems from './Components/JEE/Physics/Problems'
+import PhysicsTheory from './Components/JEE/Physics/Theory'
 function App() {
   return (
     <BrowserRouter>
